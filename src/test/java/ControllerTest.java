@@ -32,7 +32,7 @@ public class ControllerTest {
 
     @Test
     public void modifyExistingEntity_HttpStatus_isOk() throws Exception {
-        var entity = new Entity();
+        Entity entity = new Entity();
         entity.setId(1);
         Map<String, Integer> obj = new HashMap<>();
         obj.put("current", 0);
